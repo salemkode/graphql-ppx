@@ -1,6 +1,6 @@
 {
   "name": "@salemkode/graphql-ppx",
-  "version": "1.2.4",
+  "version": "1.2.8",
   "description": "graphql-ppx rewriter for ReScript/ReasonML",
   "repository": "https://github.com/reasonml-community/graphql-ppx",
   "author": "Tomasz Cichocinski <tomaszcichocinski@gmail.com>",
@@ -14,20 +14,13 @@
     "postinstall": "node ./copyPlatformBinaryInPlace.js"
   },
   "devDependencies": {
-    "rescript": "10.0.1",
+    "rescript": "^10.1.2",
     "graphql": "^15.5.0"
   },
   "peerDependencies": {
-    "rescript": "^10.0.1"
+    "rescript": "^10.1.2"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "files": [
-    "copyPlatformBinaryInPlace.js",
-    "bsconfig.json",
-    "rescript-runtime",
-    "bin",
-    "LICENSE"
-  ]
+  }
 }

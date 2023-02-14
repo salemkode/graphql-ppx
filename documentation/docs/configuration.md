@@ -44,7 +44,7 @@ for instance:
 
 ```json
 "ppx-flags": [
-  ["@reasonml-community/graphql-ppx/ppx", "-schema ../graphql_schema.json"]
+  ["@salemkode/graphql-ppx/ppx", "-schema ../graphql_schema.json"]
 ],
 ```
 
@@ -52,7 +52,7 @@ or
 
 ```json
 "ppx-flags": [
-  ["@reasonml-community/graphql-ppx/ppx", "-apollo-mode",]
+  ["@salemkode/graphql-ppx/ppx", "-apollo-mode",]
 ],
 ```
 
