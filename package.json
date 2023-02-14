@@ -1,6 +1,6 @@
 {
   "name": "@salemkode/graphql-ppx",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "description": "graphql-ppx rewriter for ReScript/ReasonML",
   "repository": "https://github.com/reasonml-community/graphql-ppx",
   "author": "Tomasz Cichocinski <tomaszcichocinski@gmail.com>",
